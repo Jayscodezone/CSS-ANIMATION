@@ -1,0 +1,22 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #8656ff;
+  animation-name: moveBox;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
